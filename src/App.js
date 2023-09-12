@@ -18,8 +18,11 @@ function Form() {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    if (!name || !pswd) return;
-    alert(`Your name is ${name} and your password is ${pswd}`);
+   if (!name || !pswd) {
+      alert(`Just dey play ooo!!! 😂😂😂`);
+    } else {
+      alert(`Your name is ${name} and your password is ${pswd}`);
+    }
   }
   return (
     <div className="container">
